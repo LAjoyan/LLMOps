@@ -1,0 +1,22 @@
+{
+  "education_name": "AI och maskininlärning",
+  "program_description": "Utbildningen fokuserar på att bygga, drifta och optimera maskininlärningsmodeller i verkliga tillämpningar, kombinerar AI, data och teknik. Den är för studenter med teknisk bakgrund och förbereder för framtida roller i avancerade AI-lösningar. Studenter använder verktyg som TensorFlow, PyTorch, CI/CD-pipelines, versionshantering, säkerhet och edge computing. Utbildningen ges främst på svenska med engelska kursmaterial, riktad mot internationella arbetsmiljöer. Examen ger spetskompetens inom MLOps och ML.",
+  "career_options": [
+    "MLOps Engineer",
+    "AI Developer",
+    "Data Engineer",
+    "Machine Learning Engineer",
+    "Data Scientist"
+  ],
+  "courses": [
+    "MLOps-principer",
+    "Maskininlärningslivscykel",
+    "CI/CD-pipelines",
+    "Versionshantering (Git, DVC)",
+    "Övervakning och underhåll",
+    "Cloud och edge computing (AWS, Azure, GCP)",
+    "Säkerhet i MLOps",
+    "LIA-praktikprojekt"
+  ],
+  "length": 3.0
+}
