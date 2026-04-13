@@ -13,6 +13,13 @@ LLMOps/
 │   └── data/
 │       ├── mlops.txt
 │       └── nackademin_contacts.txt
+├── 06_pydantic_fastapi_chatbot/
+│   ├── api.py
+│   ├── chat_agent.py
+│   ├── data_models.py
+│   ├── constants.py
+│   ├── frontend.py
+│   └── chat.ipynb
 ├── .env                     
 ├── .gitignore
 ├── .python-version
@@ -105,3 +112,62 @@ LLMOps/
 - With Pydantic → output becomes predictable and production-ready  
 - LLMs can act like **data generators with schemas**
 - This is a key step toward **real-world AI systems (MLOps)**
+
+## 06 - Pydantic + FastAPI Chatbot
+
+### ⚙️ Setup
+Created FastAPI backend for LLM interaction  
+Used Pydantic models for request/response validation  
+Connected OpenRouter models via environment variables  
+Used httpx for API communication  
+Built frontend using Streamlit  
+
+---
+
+### 🛠️ What I did
+Created a chat agent using `pydantic_ai.Agent`  
+Defined structured request and response models (`ChatRequest`, `ChatResponse`)  
+Implemented message history handling for conversational memory  
+Built a FastAPI endpoint (`/chat`) to interact with the LLM  
+Connected frontend (Streamlit) to backend via HTTP requests  
+Stored chat messages in session state  
+Displayed chat interface with user + assistant messages  
+
+---
+
+### 📚 What I learned
+How to build an API around an LLM using FastAPI  
+How to structure chat input/output with Pydantic  
+How to maintain conversation state using message history  
+How frontend and backend communicate in an AI app  
+Session state in Streamlit for persistent UI interactions  
+Separation of concerns:  
+- Backend → logic + LLM  
+- Frontend → user interaction  
+
+---
+
+### 🧠 Key Concepts
+FastAPI endpoints for LLM applications  
+Request/Response validation with Pydantic  
+Stateful conversations using message history  
+Client-server architecture (frontend ↔ backend)  
+Async functions for handling API calls  
+
+---
+
+### 🧪 Experiments
+Tested chatbot with different prompts  
+Observed how message history affects responses  
+Changed system prompt to control chatbot personality  
+Tested different models (small, medium, large)  
+Verified API responses using httpx  
+
+---
+
+### 💡 Insights
+LLMs become much more powerful when wrapped in APIs  
+Structured input/output is critical for real applications  
+Message history enables context-aware conversations  
+Separating frontend and backend makes systems scalable  
+This is a big step toward real-world AI systems and production apps 🚀  
