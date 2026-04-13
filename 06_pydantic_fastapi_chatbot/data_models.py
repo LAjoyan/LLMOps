@@ -17,7 +17,7 @@ class ChatRequest(BaseModel):
 
 
 class ChatResponse(BaseModel):
-    respone: str = Field(
+    response: str = Field(
         discription="Jokebots response with programming joke and emojis"
     )
     message_history: list[ModelMessage]
