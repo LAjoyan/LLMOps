@@ -24,12 +24,12 @@ LLMOps/
 
 ## 03 -  LLM intro with PydanticAI and OpenRouter
 
-### Setup
+### ⚙️ Setup
 - Created virtual environment using `uv`
 - Added dependencies: `pydantic_ai`, `ipykernel`
 - Configured API key from OpenRouter in `.env`
 
-### What I did
+### 🛠️ What I did
 - Created my first LLM agent using `pydantic_ai`
 - Added a custom system prompt
 - Ran prompts and printed responses
@@ -37,7 +37,7 @@ LLMOps/
 - Experimented with temperature to control response style
 - Added multimodal input (image + text)
 
-### What I learned
+### 📚 What I learned
 - Difference between system prompt and user prompt
 - How an LLM response is structured (output + metadata)
 - Token usage includes input, output, and reasoning tokens
@@ -45,14 +45,14 @@ LLMOps/
 - LLMs can handle multiple input types (text + images)
 
 
-### Experiments
+### 🧪 Experiments
 - Asked the model for a joke
 - Asked about weather (to see behavior with factual questions)
 - Changed temperature to observe response differences
 - Passed an image to the model and analyzed its response
 - Tested prompts in different languages (English + Swedish)
 
-### Insights
+### 💡 Insights
 - The system prompt strongly affects tone and behavior
 - Lower temperature → more deterministic responses
 - Higher temperature → more creative responses
@@ -63,7 +63,7 @@ LLMOps/
 ## 04 - Pydantic model to structure output
 
 
-### What I did
+### 🛠️ What I did
 - Defined structured output using **Pydantic models**
 - Used `Field()` to validate and describe data
 - Forced the LLM to return structured data instead of raw text
@@ -77,7 +77,7 @@ LLMOps/
   - `.json`
 - Loaded external text data from files for prompting
 
-### What I learned
+### 📚 What I learned
 - LLM outputs can be **controlled and validated** using Pydantic
 - Structured output makes data:
   - easier to process
@@ -87,20 +87,20 @@ LLMOps/
 - Encoding (`utf-8`) is important for handling special characters (å, ä, ö)
 - LLM + structured schema = more reliable results
 
-### Key Concepts
+### 🧠 Key Concepts
 - **Unstructured vs Structured output**
 - **Data validation with Pydantic**
 - **Schema-driven LLM responses**
 - **Data pipelines (LLM → DataFrame → file)**
 
-### Experiments
+### 🧪 Experiments
 - Simulated employee data with constraints (age, salary, role)
 - Enforced schema with `Literal` and field limits
 - Converted output to DataFrame and calculated statistics
 - Extracted structured education data from raw text
 - Saved structured results as JSON
 
-### Insights
+### 💡Insights
 - Without structure → output is inconsistent and hard to use  
 - With Pydantic → output becomes predictable and production-ready  
 - LLMs can act like **data generators with schemas**
