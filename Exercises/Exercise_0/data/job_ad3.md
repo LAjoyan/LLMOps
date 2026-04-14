@@ -1,4 +1,4 @@
 # job_ad3.txt
 
 ## Summary
-The role involves leading software teams for Nordax’s secure loans delivery, collaborating with Product/tech leaders, ensuring project success, and driving business impact. Key skills: C#/.NET/.NET Core proficiency, JavaScript expertise, leadership experience, cross-functional collaboration, fluency in English/Swedish, and strong communication skills.
+The role involves leading engineering teams to deliver technology solutions, driving business impact through technical expertise and collaboration, requiring 7+ years in software dev, proficiency in C#/.NET and JavaScript, and strong leadership skills.
