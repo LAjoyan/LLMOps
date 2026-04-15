@@ -8,25 +8,38 @@ This repository documents my journey learning how to build real-world AI systems
 ```
 LLMOps/
 ├── .venv
-├── 03_llm_intro/
-│   ├── llm_intro.ipynb     
-│   └── pic.jpg    
-├── 04_pydanticai_structured_output/
-│   ├── pydantic_pydantic_models.ipynb
-│   ├── class_exercise.ipynb
-│   ├── simulated_employees.csv
-│   ├── simulated_employees.md
-│   ├── education.json
-│   └── data/
-│       ├── mlops.txt
-│       └── nackademin_contacts.txt
-├── 06_pydantic_fastapi_chatbot/
-│   ├── api.py
-│   ├── chat_agent.py
-│   ├── data_models.py
-│   ├── constants.py
-│   ├── frontend.py
-│   └── chat.ipynb
+├── Code_alongs/
+│ ├── 03_llm_intro/
+│ │  ├── llm_intro.ipynb     
+│ │  └── pic.jpg    
+│ ├── 04_pydanticai_structured_output/
+│ │  ├── pydantic_pydantic_models.ipynb
+│ │  ├── class_exercise.ipynb
+│ │  ├── simulated_employees.csv
+│ │  ├── simulated_employees.md
+│ │  ├── education.json
+│ │  └── data/
+│ ├── 06_pydantic_fastapi_chatbot/
+│ │  ├── api.py
+│ │  ├── chat_agent.py
+│ │  ├── data_models.py
+│ │  ├── constants.py
+│ │  ├── frontend.py
+│ │  └── chat_eda.ipynb
+│ ├── 07_mlflow_llm_judge/
+│ │ ├── data/
+│ │ │ └── customer_service_emails.json
+│ │ ├── constants.py
+│ │ ├── data_cleaning.ipynb
+│ │ ├── email_extractor.ipynb
+│ │ ├── emails_cleaned.json
+│ │ ├── mlflow.db
+│ │ └── prompt_creations.ipynb
+├── Exercises/
+│    └── Exercise_0/
+│         ├── data/
+│         ├── Exercise_0.md
+│         └── Exercise0.ipynb
 ├── .env                     
 ├── .gitignore
 ├── .python-version
@@ -94,3 +107,30 @@ LLMs become much more useful when treated like **data generators with schemas**.
 Wrapping LLMs in APIs makes them usable in real applications.
 
 ---
+
+# 07 - MLflow + LLM Judge 🧪
+
+### 🛠️ What I did
+- Cleaned and structured email dataset for evaluation  
+- Built an email extractor using Pydantic + LLM  
+- Created and versioned prompts using MLflow  
+- Loaded prompts dynamically into the agent  
+- Generated model outputs and stored them in a dataset  
+- Evaluated results using MLflow (`Correctness`, `Summarization`)  
+
+### ▶️ Run MLflow UI
+```bash
+uv run mlflow ui --port 5001
+```
+
+### 📚 What I learned
+- Prompts can be versioned and reused with MLflow  
+- LLM outputs need to be structured for evaluation  
+- Evaluation requires:
+  - inputs  
+  - expected outputs  
+  - model outputs  
+- MLflow helps track experiments and results  
+
+### 💡 Insight
+Building LLM systems is not just about prompting — it also requires evaluation, tracking, and iteration.
