@@ -1,8 +1,6 @@
 # job_ad2.txt
 
-    ## Summary
-    - Role: Data Center Engineering Technician  
-- Responsibilities: Maintenance support, efficiency improvement, collaboration  
-- Required skills: Technical expertise, attention to detail  
-- Experience level: Entry-level minimum
-    
+## Summary
+- Role: Data Center Engineering Operations Technician  - Responsibilities: Assisting in the operation and maintenance of electrical, mechanical, fire/life safety, and HVAC equipment; monitoring and troubleshooting mechanical, electrical, HVAC, cooling, fire/life safety, and generator systems; assisting contractors and data center engineers with equipment operation and deployment; performing site walkthroughs and acting as a first responder; monitoring alarms and systems; planning and coordinating vendor work; supporting other sites and teams; performing rack power up and installation; monitoring new equipment handover; supporting new hires through knowledge sharing; participating in event response and drills
+- Required skills: Ability to prioritize in a complex, fast-paced environment; Valid EU driving license; Professional certification in electrical, mechanical, or controls engineering; Heavy industry or data center experience; Understanding of basic electrical principles and systems; Working knowledge of mechanical-room infrastructure such as chillers, Air Handling Units, and fan controls; Working knowledge of backup generator systems
+- Experience level: 2+ years
