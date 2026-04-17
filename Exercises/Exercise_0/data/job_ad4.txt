@@ -1,0 +1,50 @@
+Om jobbet
+Om Agio
+
+Agio är ett väletablerat svenskt IT konsultbolag som grundades 2003 och i dag har kontor i både Stockholm, Luleå och Kiruna. De är experter på att skapa effektivare verksamhetsprocesser inom offentlig sektor och industri – där modern digitalisering, automation och AI står i centrum. Agio är särskilt starka inom ärende- och dokumenthantering, beslutsstöd, digital transformation och skräddarsydd systemutveckling. Med långsiktiga kundrelationer, hög kompetens och fokus på hållbar utveckling levererar de IT lösningar som lyfter organisationer till nästa nivå.
+ 
+
+Agio beskriver sig själva som en arbetsplats där kollegor trivs, utvecklas och har roligt tillsammans – en kultur som kombinerar stark teknisk kompetens med omtanke, balans i livet och engagemang i varje leverans.
+
+Vad vi erbjuder
+
+Som utvecklare på Agio får du en trygg anställning samtidigt som du arbetar i strategiskt viktiga och utvecklande uppdrag hos Agios kunder. Vi erbjuder:
+
+Stark trygghet med kollektivavtal, nära stöd från dina chefer och kollegor med långsiktiga uppdrag.
+Tekniskt stimulerande miljöer: du får arbeta hos kunder som ligger i framkant inom automation, verksamhetskritiska IT‑lösningar inom offentlig sektor och tung industri.
+Kompetensutveckling som prioriteras: vi hjälper dig hitta rätt uppdrag och rätt väg framåt i karriären.
+Balans och välmående: uppdrag hos en kund som värnar om hållbara arbetsliv och tydliga arbetsprocesser.
+Vad tjänsten innebär
+
+Vill du arbeta med AI, prediktiva modeller och datadriven utveckling i projekt som gör skillnad på riktigt? På Agio får du kombinera teknik, analys och innovation i uppdrag som spänner över allt från brottsbekämpning till smartare vårdinformation.
+
+Vi söker nu erfarna Data Scientists med AI‑kompetens till våra team i Stockholm och Luleå – och du väljer själv vilken ort du vill utgå ifrån. Som Data Scientist på Agio hjälper du våra kunder att ta nästa steg i sin digitala resa. Du arbetar med:
+
+Avancerad dataanalys och AI/ML‑modeller
+Prediktiva modeller och statistiska analyser
+Automation, smarta dataflöden och beslutsstöd
+Identifiering av nya insikter som skapar direkt verksamhetsnytta
+
+Du blir en viktig del i att hjälpa organisationer utnyttja digitaliseringens möjligheter – från effektivisering till helt nya arbetssätt.
+
+Du hamnar i vårt affärsområde Dataanalys & BI – ett team med BI‑ och AI‑specialister som delar passionen för att skapa värde med data.Vi arbetar Microsoftorienterat och finns både i Stockholm och Luleå. Här får du vara med och påverka framtidens datadrivna beslut i Sverige.
+
+Vem vi söker
+
+Vi söker erfarna Data Scientists som trivs med att kombinera analys, modellering och verksamhetsförståelse med kundnära dialog och praktiskt problemlösning.
+
+Vi tror att du har erfarenhet av:
+
+Minst 4 års arbete som Data Scientist, dataanalytiker eller i AI/ML‑roller
+AI/ML‑modeller såsom prediktion, klassificering och klustring
+Python eller R – gärna med scikit‑learn, pandas/polars, TensorFlow, PyTorch eller XGBoost
+Versionshantering (Git) och containerteknik (Docker)
+API‑integrationer och arbete med data från flera olika källor
+Svenska i tal och skrift
+Meriterande om du också har:
+
+Kunskap om informationssäkerhet, GDPR och etisk AI
+Erfarenhet av Azure, AWS eller andra molntjänster
+Vana av RAG‑lösningar, agenter och ramverk som LangChain, LangGraph eller LlamaIndex
+
+Som person är du analytisk, nyfiken och lösningsorienterad. Du vill arbeta i projekt som gör skillnad och bidra till ett team där samarbete, innovation och kunskapsdelning är centralt.
