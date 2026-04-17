@@ -1,4 +1,8 @@
 # job_ad2.txt
 
-## Summary
-The role focuses on maintaining data center facilities to ensure high availability and efficiency, requiring technical skills in monitoring, troubleshooting, and collaboration to support service standards.
+    ## Summary
+    - Role: Data Center Engineering Technician  
+- Responsibilities: Maintenance support, efficiency improvement, collaboration  
+- Required skills: Technical expertise, attention to detail  
+- Experience level: Entry-level minimum
+    
