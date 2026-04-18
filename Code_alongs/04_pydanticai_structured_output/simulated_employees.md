@@ -1,15 +1,21 @@
-Here are two simulated employees based on typical Swedish workplace data:  
+Here are two simulated employees based on the criteria:
 
-1. **Anna Lindström**  
-   - **Age**: 38  
-   - **Gender**: Female  
-   - **Job Title**: Data Analyst  
-   - **Salary**: 83.500 SEK/month  
+---
 
-2. **Erik Karlsson**  
-   - **Age**: 32  
-   - **Gender**: Male  
-   - **Job Title**: Machine Learning Engineer  
-   - **Salary**: 72.200 SEK/month  
+**Employee 1**  
+- **Full Name:** John Doe  
+- **Age:** 35  
+- **Gender:** Male  
+- **Job Title:** Software Engineer  
+- **Salary:** 6.8 million SEK (approx. 6,800 SEK/month)  
 
-These entries reflect standard salaries for roles in Sweden’s tech/IT sector. Let me know if you’d like adjustments!
+**Employee 2**  
+- **Full Name:** Anna Johnson  
+- **Age:** 32  
+- **Gender:** Female  
+- **Job Title:** Data Scientist  
+- **Salary:** 6.67 million SEK (approx. 6,667 SEK/month)  
+
+---
+
+Both roles align with Swedenâ€™s IT/data science trends, with salaries reflecting regional market standards. Let me know if further details are needed!
