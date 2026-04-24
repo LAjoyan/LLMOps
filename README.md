@@ -10,8 +10,8 @@ LLMOps/
 ├── .venv
 ├── Code_alongs/
 │ ├── 03_llm_intro/
-│ │  ├── llm_intro.ipynb     
-│ │  └── pic.jpg    
+│ │  ├── llm_intro.ipynb
+│ │  └── pic.jpg
 │ ├── 04_pydanticai_structured_output/
 │ │  ├── pydantic_pydantic_models.ipynb
 │ │  ├── class_exercise.ipynb
@@ -35,12 +35,28 @@ LLMOps/
 │ │ ├── emails_cleaned.json
 │ │ ├── mlflow.db
 │ │ └── prompt_creations.ipynb
+│   └── 09_lancedb/
+│       ├── __pycache__/
+│       ├── knowledge_base/
+│       │   ├── animals_text.lance/
+│       │   └── jokes.lance/
+│       ├── .env
+│       ├── animals_text_embeddings.json
+│       ├── constants.py
+│       ├── jokes.json
+│       └── lancedb_basics.ipynb
+│
+├── .env
+├── animals_text_embeddings.json
+├── constants.py
+├── jokes.json
+└── lancedb_basics.ipynb
 ├── Exercises/
 │    └── Exercise_0/
 │         ├── data/
 │         ├── Exercise_0.md
 │         └── Exercise0.ipynb
-├── .env                     
+├── .env
 ├── .gitignore
 ├── .python-version
 ├── pyproject.toml
@@ -111,12 +127,12 @@ Wrapping LLMs in APIs makes them usable in real applications.
 # 07 - MLflow + LLM Judge 🧪
 
 ### 🛠️ What I did
-- Cleaned and structured email dataset for evaluation  
-- Built an email extractor using Pydantic + LLM  
-- Created and versioned prompts using MLflow  
-- Loaded prompts dynamically into the agent  
-- Generated model outputs and stored them in a dataset  
-- Evaluated results using MLflow (`Correctness`, `Summarization`)  
+- Cleaned and structured email dataset for evaluation
+- Built an email extractor using Pydantic + LLM
+- Created and versioned prompts using MLflow
+- Loaded prompts dynamically into the agent
+- Generated model outputs and stored them in a dataset
+- Evaluated results using MLflow (`Correctness`, `Summarization`)
 
 ### ▶️ Run MLflow UI
 ```bash
@@ -124,19 +140,68 @@ uv run mlflow ui --port 5001
 ```
 
 ### 📚 What I learned
-- Prompts can be versioned and reused with MLflow  
-- LLM outputs need to be structured for evaluation  
+- Prompts can be versioned and reused with MLflow
+- LLM outputs need to be structured for evaluation
 - Evaluation requires:
-  - inputs  
-  - expected outputs  
-  - model outputs  
-- MLflow helps track experiments and results  
+  - inputs
+  - expected outputs
+  - model outputs
+- MLflow helps track experiments and results
 
 ### 💡 Insight
-Building LLM systems is not just about prompting — it also requires evaluation, tracking, and iteration.# 08_mlflow_fastapi_pydanticai
+Building LLM systems is not just about prompting — it also requires evaluation, tracking, and iteration.
+
+---
+
+# 08 - mlflow + fastapi + pydanticai
 
 The full project implementation can be found here:
 👉 [08_mlflow_fastapi_pydanticai](https://github.com/LAjoyan/FastAPI_LLMops_demo)
-# 08 - mlflow + fastapi + pydanticai
 
-👉 [08_mlflow_fastapi_pydanticai](https://github.com/LAjoyan/FastAPI_LLMops_demo)
+# 09 - LanceDB + Embeddings 🔍
+
+## 🛠️ What I did
+- Set up a local LanceDB knowledge base
+- Created tables to store text + vector embeddings
+- Loaded dataset from JSON files (animals, jokes)
+- Inserted and updated data in tables
+- Used schema with `LanceModel` for structured data
+- Generated embeddings using LanceDB Embeddings API (Cohere)
+- Stored embeddings automatically in the database
+- Performed vector similarity search using:
+  - manual query vectors
+  - natural language queries
+
+---
+
+## 📚 What I learned
+- Text must be converted into vectors (embeddings) to enable semantic search
+- LanceDB stores data as `.lance` tables (not normal files)
+- Embedding models automatically generate vectors (no need to create manually)
+- Schema (`LanceModel`) helps structure and validate data
+- Vector search finds similar meaning, not exact matches
+- You can search using:
+  - vectors
+  - or plain text (converted internally to vectors)
+
+---
+
+## ⚠️ Notes
+- Calling `.add()` multiple times appends data (does not overwrite)
+- Re-running notebook cells can create duplicate entries
+- LanceDB automatically versions tables after each write
+
+---
+
+## 💡 Insight
+Building AI systems is not just storing data, it’s about:
+
+- representing meaning with embeddings
+- retrieving relevant information efficiently
+- enabling semantic search (foundation for RAG systems)
+
+👉 This is the core building block for:
+
+- chatbots
+- document search
+- AI assistants
