@@ -137,3 +137,6 @@ Building LLM systems is not just about prompting — it also requires evaluation
 
 The full project implementation can be found here:
 👉 [08_mlflow_fastapi_pydanticai](https://github.com/LAjoyan/FastAPI_LLMops_demo)
+# 08 - mlflow + fastapi + pydanticai
+
+👉 [08_mlflow_fastapi_pydanticai](https://github.com/LAjoyan/FastAPI_LLMops_demo)
