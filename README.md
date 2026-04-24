@@ -133,4 +133,7 @@ uv run mlflow ui --port 5001
 - MLflow helps track experiments and results  
 
 ### 💡 Insight
-Building LLM systems is not just about prompting — it also requires evaluation, tracking, and iteration.
+Building LLM systems is not just about prompting — it also requires evaluation, tracking, and iteration.# 08_mlflow_fastapi_pydanticai
+
+The full project implementation can be found here:
+👉 [08_mlflow_fastapi_pydanticai](https://github.com/LAjoyan/FastAPI_LLMops_demo)
