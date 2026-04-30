@@ -205,3 +205,12 @@ Building AI systems is not just storing data, it’s about:
 - chatbots
 - document search
 - AI assistants
+
+# Projects: RAG + MLflow & Docker Containerization
+
+The full implementation for both projects is available in a single repository:
+
+* **RAG with MLflow tracking** (`11_rag_mlflow`)
+* **Docker containerization** (`12_docker_containerization`)
+
+👉 https://github.com/LAjoyan/RAG-demo
